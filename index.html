@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IQ level test</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <button class="burger" id="burger">
+          <span class="burger__line"></span>
+        </button>
+        <img class="header__img" src="images/brain-logo.png" alt="мозг">
+        <p class="header__text">
+          IQ test
+        </p>
+        <div class="menu" id="menu">
+          <button class="menu__btn" type="button">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M28 2.82L25.18 0L14 11.18L2.82 0L0 2.82L11.18 14L0 25.18L2.82 28L14 16.82L25.18 28L28 25.18L16.82 14L28 2.82Z"
+                fill="#FFC700" />
+            </svg>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#" id="btnHome">Home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#about">Information about the test</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link start-test" href="#footer">Pass the test</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main__wrapper">
+      <section class="banner">
+        <div class="container">
+          <div class="banner__wrapper">
+            <span class="banner__subtitle">Complete the test accurately and quickly </span>
+            <h1 class="banner__title yellow-text">IQ Test</h1>
+            <img class="banner__img" src="images/brain-logo.png" alt="мозг">
+            <button class="banner__btn btn start-test" type="button">Pass the test</button>
+            <p class="banner__text">
+              <span class="yellow-text">Take the test and receive recommendations on developing your intelligence, improving financial well-being, and personal
+              life.
+            </p>
+            <a class="banner__link" href="#about">More details</a>
+          </div>
+        </div>
+      </section>
+      <section class="blockquote" id="about">
+        <h2 class="sr-only">
+          Quote
+        </h2>
+        <div class="container">
+          <div class="blockquote__wrapper">
+            <blockquote class="blockquote__text">A professional IQ test not only allows you to determine your intelligence quotient but also develop a list of
+              recommendations to improve this indicator.
+            </blockquote>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <h2 class="sr-only">
+          You will receive
+        </h2>
+        <div class="container">
+          <p class="about__text">Also, based on the test results, <b>you will receive</b> detailed <b>recommendations</b> on identifying the most
+promising <b>field of activity for your type of <span>intelligence</span></b>, which will bring you the quickest
+financial results.
+          </p>
+          <img class="about__img" src="images/brain-about.png" alt="Разделение сфер в мозге">
+          <button class="about__btn btn  start-test" type="button">Pass the test</button>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer" id="footer">
+    <h2 class="sr-only">
+  About taking the test.
+    </h2>
+    <div class="container">
+      <div class="footer__info">
+        <p class="footer__text">The test will take you no more than <b class="yellow-text">12 minutes</b>, and you will be able to see its
+<b>results</b>. <b class="yellow-text">You can use them for your entire life.</b>
+        </p>
+        <p class="footer__motivation">
+Professional interpretation and detailed <b>worked-out recommendations</b> will allow you to qualitatively <b>change all
+  aspects of your life:</b> from financial to romantic.
+        </p>
+        <button class="footer__btn btn  start-test" type="button">Pass the test</button>
+      </div>
+    </div>
+    <span class="footer__copy">2023</span>
+  </footer>
+  <script src="js/questions.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
